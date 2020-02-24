@@ -47,17 +47,20 @@
         <div class="col-1">
         </div>
         <div class="col-6">
-            <h2>Summary: Latitude vr. X</h2>
+            <h2>Latitude vr. Temperature</h2>
 
             <div class="col-7">
             <img src="images/Fig1.png" width="100%" height="auto" align="left">
             </div>
             <p>
 
-            The purpose of this project was to examine the relationship between latitude coordinates and weather. The latitude coordinates were randomized, and then an API selected the city closest to the coordinates. In this way the dataset includes latitude and longitude coordinates around the world. The nearest city is the point where the measurements were taken. The coordinates were compared to the several different measurements and plotted on graphs with the measurement on the y axis. These graphs are visible under the plots pulldown menu in the top right.
+            A scatter plot of latitude versus temperature shows a strong polynomial correlation in the form of a parabolic curve. The highest temperatures occur at the equator.  Below and above the equator, the temperature decreases with increasing distance.
+            <p> 
 
-            <p>Matplotlib was used to plot the scatter plots of latitude versus the various measurements. This site offers the original source data and features visualizations as part of the annalysis.
-            Additionally, descriptions of any observed trends and correlations witnessed were described.
+            I chose not to use the absolute value of the distance to the equator because I thought it might show a different or slightly different correlation in the Southern hemisphere than in the Northern Hemisphere.  
+            <p>
+
+            The graph appears to show a positive correlation in the southern hemisphere (latitude less than zero) and a negative correlation in the northern hemisphere, (latitude greater than zero). More cities are plotted in the northern hemisphere, and they show a wider spread than those of the southern hemisphere. 
 
 
         </div>
